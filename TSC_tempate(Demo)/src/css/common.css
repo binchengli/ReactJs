@@ -1,0 +1,419 @@
+*:focus {
+    outline: 0 none;
+}
+h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.clearfix::after, form::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+body {
+    background-color: #e6e6e6;
+    color: #676a6c;
+    font-size: 15px;
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+}
+input[type="file"]
+{
+    width: 100%;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    margin-top: 2px;
+}
+input[type="checkbox"],
+input[type="radio"],
+select {
+    cursor: pointer;
+}
+.matchAllToggle {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.toolBtn {
+    color: #1e6ab6;
+}
+.searchBtn {
+    cursor: pointer;
+}
+.accessingTag {
+    margin-left: 10px;
+    color: #1e6ab6;
+    vertical-align: middle;
+}
+.accessingTag .fa {
+    margin-right: 5px;
+}
+.tables-tools .tool {
+    display: inline-block;
+}
+.tables-tools .tool+ .tool {
+    margin-left: 10px;
+}
+.tables-paging {
+    text-align: right;
+}
+.tables-paging .pageinfo > span {
+    padding: 0px 10px;
+}
+.tables-paging .pageinfo,
+.tables-paging .pagination {
+    display: inline-block;
+    margin: 5px 0 0;
+    vertical-align: middle;
+}
+.tables-paging button:focus {
+    background-color: #fff;
+    border-color: #ccc;
+}
+.clickable {
+    cursor: pointer;
+}
+.unclickable {
+    cursor: not-allowed;
+}
+.clickable a:hover,
+.unclickable a:hover {
+    text-decoration: none;
+}
+.actionBtn.btn {
+    border: unset;
+    border-radius: 50%;
+    padding: 0;
+}
+.actionBtn.btn + .btn {
+    margin: 0px;
+}
+.actionBtn.btn:focus {
+    background-color: #FFF;
+}
+.actionBtn[disabled] {
+    cursor: not-allowed;
+    opacity: 1;
+}
+.supportedBtn {
+    margin-left: 10px;
+    cursor: help;
+    color: #333;
+}
+.filter-group {
+    display: inline-block;
+}
+.filter-group .btn:focus {
+    border-color: #ccc;
+}
+.filter-group .btn.active {
+    background-color: #e6e6e6;
+}
+.toggle-button.disabled > div {
+    cursor: not-allowed!important;
+}
+.icheckbox label{
+    margin-bottom: 0px;
+}
+.icheckbox.disabled .iCheck-helper,
+.icheckbox.disabled span {
+    cursor: not-allowed!important;
+}
+.FAbutton {
+    color: #1e6ab6;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 2px;
+}
+.FAbutton:hover,
+.FAbutton.enabled {
+    color: #676a6c;
+    border-color: #676a6c;
+}
+.FAbutton > .fa {
+    line-height:17px;
+}
+
+.block-window {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index:6;
+}
+.block-window.expand {
+    display: block;
+}
+.col-label {
+    text-align: right;
+    font-weight: bold;
+}
+.col-notice, 
+.form-horizontal .col-notice {
+    color: #aaa;
+    font-weight: normal;
+    text-align: left;
+}
+.col-header {
+    text-align: center;
+    font-weight: 900;
+}
+.col-line {
+    border-bottom: 2px solid #ddd;
+}
+.col-toggleBtn {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
+.col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 30px;
+    margin-top: 5px;
+    float: left;
+}
+.col-1 {
+    width: 8.3333%
+}
+.col-offset-1 {
+    margin-left: 8.3333%
+}
+.col-2 {
+    width: 16.6667%
+}
+.col-offset-2 {
+    margin-left: 16.6667%
+}
+.col-3 {
+    width: 25%;
+}
+.col-offset-3 {
+    margin-left: 25%;
+}
+.col-4 {
+    width: 33.3333%;
+}
+.col-offset-4 {
+    margin-left: 33.3333%;
+}
+.col-5 {
+    width: 41.6667%;
+}
+.col-offset-5 {
+    margin-left: 41.6667%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-offset-6 {
+    margin-left: 50%;
+}
+.col-7 {
+    width: 58.3333%;
+}
+.col-offset-7 {
+    margin-left: 58.3333%;
+}
+.col-8 {
+    width: 66.6667%;
+}
+.col-offset-8 {
+    margin-left: 66.6667%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-offset-9 {
+    margin-left: 75%;
+}
+.col-10 {
+    width: 83.3333%;
+}
+.col-offset-10 {
+    margin-left: 83.3333%;
+}
+.col-11 {
+    width: 91.6667%;
+}
+.col-offset-11 {
+    margin-left: 91.6667%;
+}
+.col-12 {
+    width: 100%;
+}
+.col-offset-12 {
+    margin-left: 100%;
+}
+
+/* for covering boostrap style */
+.btn + .btn {
+    margin: 0 0 0 15px;
+}
+.nav-tabs > li > a {
+    width: 190px;
+    text-align:center;
+    background-color: #9fa6ab;
+    border: 1px solid #ddd;
+    color: #fff;
+    padding: 10px;
+    font-weight: 700;
+}
+.nav-tabs > li > a:hover {
+    background-color: #9fa6ab;
+    border: 1px solid #ddd;
+}
+.panel-title {
+    font-weight:bold;
+    height: 16px;
+    font-size: 20px
+}
+.panel-title .fa {
+    margin-right: 10px;
+}
+.progress {
+    height: 10px;
+    margin-bottom: 5px;
+}
+.radio-inline {
+    margin-right:10px;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9,
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9,
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9,
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.panel-default {
+    border-radius: 0;
+}
+.panel-heading {
+    padding: 10px;
+}
+.table {
+    font-size: 15px;
+    margin: 10px 0 20px;
+}
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > th,
+.table > tbody > tr > td,
+.table > tfoot > tr > td,
+.table > thead > tr > td {
+    vertical-align: middle;
+    text-align: center;
+}
+.form-control {
+    height: 30px;
+    padding: 3px 10px;
+}
+.form-horizontal .control-header {
+    text-align: center;
+    font-weight: 900;
+}
+.form-horizontal .control-fileInput {
+    padding-top: 5px;
+}
+.form-horizontal .control-togglebtn,
+.form-horizontal .control-checkbox,
+.form-horizontal .control-checkbox-inline,
+.form-horizontal .control-radio,
+.form-horizontal .control-radio-inline,
+.form-horizontal .control-button,
+.form-horizontal .control-inputFile {
+    padding-top: 7px;
+}
+.form-horizontal .control-checkbox-inline label,
+.form-horizontal .control-radio-inline label {
+    margin: 0;
+}
+.form-horizontal .control-checkbox label,
+.form-horizontal .control-radio label,
+.form-horizontal .control-inputFile label {
+    display: block;
+}
+.popover-content label {
+    display: block;
+}
+.pagination > .active > a, 
+.cssSite .pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #9fa6ab;
+    border-color: #9fa6ab;
+    color: #fff;
+}
+.pagination > li > a,
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    color: #9fa6ab;
+}
+.pagination > li.disabled > a,
+.pagination > li.disabled > span {
+    color: #777;
+}
+
+/* for covering icheck style, we only cover used class */
+.iradio_square-grey,
+.icheckbox_square-grey {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+.iradio_square-grey ~ span,
+.icheckbox_square-grey ~ span {
+    padding: 0 15px 0 5px;
+    cursor: pointer;
+    font-weight: normal;
+}
+.iradio_square-grey.disabled ~ span,
+.icheckbox_square-grey.disabled ~ span {
+    cursor: not-allowed;
+}
+.icheckbox_square-grey {
+    background-position: 0 0;
+}
+.icheckbox_square-grey.hover {
+    background-position: -20px 0;
+}
+.icheckbox_square-grey.checked {
+    background-position: -40px 0;
+}
+.icheckbox_square-grey.disabled {
+    background-position: -60px 0;
+}
+.icheckbox_square-grey.checked.disabled {
+    background-position: -80px 0;
+}
+.iradio_square-grey {
+    background-position: -100px 0;
+}
+.iradio_square-grey.hover {
+    background-position: -120px 0;
+}
+.iradio_square-grey.checked {
+    background-position: -140px 0;
+}
+.iradio_square-grey.disabled {
+    background-position: -160px 0;
+}
+.iradio_square-grey.checked.disabled {
+    background-position: -180px 0;
+}
+.icheckbox_square-grey.disabled .iCheck-helper,
+.iradio_square-grey.disabled .iCheck-helper {
+    cursor: not-allowed!important;
+}

@@ -1,0 +1,51 @@
+.wizard-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.wizard-content {
+    width: 1000px;
+    height: 550px;
+    padding: 15px;
+    background-color: #fff;
+}
+.wizard-header {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    color: #aaa;
+}
+.wizard-stepTable {
+    width: 100%
+}
+.wizard-stepTable td {
+    text-align: center;
+    color: #e6e6e6;
+    font-weight: 700;
+    padding: 5px 0;
+}
+.cssOrganization .wizard-stepTable .step_LightOn {
+    background-color: #d26900;
+}
+.cssController .wizard-stepTable .step_LightOn {
+    background-color: #408080;
+}
+.cssSite .wizard-stepTable .step_LightOn {
+    background-color: #930000;
+}
+.wizard-stepTable .step_LightOff {
+    background-color: #aaa;
+}
+.wizard-stepContent {
+    height: calc(100% - 125px);
+    margin: 10px 0;
+    overflow: auto;
+}
+.wizard-buttonGroup {
+    overflow: auto;
+}
+.wizard-col-title {
+    color: #333;
+    font-weight: 900;
+}

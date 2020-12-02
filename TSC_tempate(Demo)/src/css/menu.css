@@ -1,0 +1,140 @@
+/* menu */
+.menu-content {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.menu-content .menu-category {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-shadow: 1px 1px #000;
+    text-transform: uppercase;
+}
+.menu-content .panel {
+    border: 0 none;
+    border-radius: 0;
+    margin: 0;
+}
+.menu-content .panel-heading,
+.menu-content .panel-body {
+    background-color: transparent;
+    border: 0 none;
+    border-radius: 0;
+    padding: 0;
+}
+.menu-content .expand-btn {
+    float: right;
+    font-size: 10px;
+    margin-right: 0;
+    margin-top: 5px;
+}
+.menu-content a {
+    color: #aaa;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu-content-layer-1 {
+    background-color: #2a3f54;
+}
+.menu-content-layer-1.active {
+    border-right: 5px solid #1abb9c;
+    -webkit-transition: border .1s ease 0s;
+        -ms-transition: border .1s ease 0s;
+         -o-transition: border .1s ease 0s;
+            transition: border .1s ease 0s;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25), 0 1px 0 rgba(255, 255, 255, 0.16) inset;
+}
+
+.cssSite .menu-content-layer-1.active {
+    /*     background-color: #293846; */
+        background-color: #272727;
+    /*     border-left: 4px solid #D26900; */
+    border-right: 4px solid #930000;
+        -webkit-transition: border .1s ease 0s;
+            -ms-transition: border .1s ease 0s;
+             -o-transition: border .1s ease 0s;
+                transition: border .1s ease 0s;
+    }
+
+.cssOrganization .menu-content-layer-1.active {
+    /*     background-color: #293846; */
+        background-color: #272727;
+        border-right: 4px solid #d26900;
+        -webkit-transition: border .1s ease 0s;
+            -ms-transition: border .1s ease 0s;
+             -o-transition: border .1s ease 0s;
+                transition: border .1s ease 0s;
+    }
+    .cssController .menu-content-layer-1.active {
+    /*     background-color: #293846; */
+        background-color: #272727;
+        border-right: 4px solid #408080;
+        -webkit-transition: border .1s ease 0s;
+            -ms-transition: border .1s ease 0s;
+             -o-transition: border .1s ease 0s;
+                transition: border .1s ease 0s;
+    }
+
+.menu-content-layer-1 .panel-title div {
+    padding: 10px;
+}
+.menu-content-layer-2 {
+    padding: 10px 40px;
+}
+.menu-content-layer-1 .panel-title div:hover,
+.menu-content-layer-2:hover {
+    color: #e6e6e6;
+    background-color: #425668;
+}
+.menu-content-layer-1.active .panel-title div {
+    color: #e6e6e6;
+}
+.menu-content-layer-2.active {
+    color: #e6e6e6;
+    background-color: #425668;
+}
+
+/******** minibar style ********/
+.minibar .menu-content-layer-1 {
+    position: relative;
+}
+.minibar .menu-content-layer-1 .panel-title {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom:10px;
+}
+.minibar .menu-content-layer-1 .panel-title > a > div {
+    position:relative;
+    display:block;
+}
+.minibar .menu-content-layer-1 .panel-title .fa {
+    margin-right: 0px;
+    font-size: 25px;
+    width: 100%;
+}
+.minibar .menu-content-layer-1 .panel-title div .title-wrapper {
+    width:70px;
+}
+.minibar .menu-content-layer-1 .panel-title div .title-wrapper .title {
+    font-size: 10px;
+}
+.minibar .menu-content-layer-1 .panel-title div > .expand-btn {
+    display: none;
+}
+.minibar .menu-content-layer-1 > .panel-collapse {
+    position: absolute;
+    background-color: #2a3f54;
+    left: 70px;
+    top: 0px;
+    width: 150px;
+    z-index: 99;
+}
+.minibar .menu-content-layer-2 {
+    padding:10px;
+}

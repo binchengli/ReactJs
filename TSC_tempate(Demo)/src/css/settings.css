@@ -1,0 +1,47 @@
+.general-panel {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    opacity: 1;
+    padding: 10px 15px;
+    transition: all 0.2s ease 0s;
+    width: 100%;
+}
+.general-panel-title {
+    border-bottom: 1px solid #e6e9ed;
+    padding-left: 10px;
+}
+.general-panel-content {
+    clear: both;
+    float: left;
+    margin-top: 15px;
+    padding: 0 5px 6px;
+    width: 100%;
+}
+.general-panel-footer {
+    border-top: 1px solid #e6e9ed;
+    clear: both;
+    padding: 10px 0 0;
+    margin-top:40px;
+    padding-top: 10px;
+}
+.settings-icon {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+.settings-table.table > thead > tr > th,
+.settings-table.table > tbody > tr > th,
+.settings-table.table > tfoot > tr > th,
+.settings-table.table > thead > tr > td,
+.settings-table.table > tbody > tr > td,
+.settings-table.table > tfoot > tr > td {
+    text-align: left;
+}
+.settings-table.table > thead > tr > th:first-child,
+.settings-table.table > tbody > tr > th:first-child,
+.settings-table.table > tfoot > tr > th:first-child,
+.settings-table.table > thead > tr > td:first-child,
+.settings-table.table > tbody > tr > td:first-child,
+.settings-table.table > tfoot > tr > td:first-child {
+    text-align: center;
+}
