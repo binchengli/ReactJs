@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+@import './common.css';
+@import './menu.css';
+@import './component.css';
+@import './settings.css';
+@import './login.css';
+@import './home.css';
